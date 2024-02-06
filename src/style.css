@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.container {
+  padding: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.header .title {
+  flex: 1;
+  border: 1px solid black;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+button {
+  color: #fff;
+  background-color: green;
+  cursor: pointer;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+button .copy__btn {
+  flex: 0;
+}
+
+.character__length p {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.character__length input {
+  width: 100%;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+}
+
+.generate_btn {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.errMsg{
+  color: red;
+}
